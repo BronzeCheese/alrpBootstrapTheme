@@ -1,3 +1,12 @@
+body {
+    background: url(images/bg.jpg), black;
+    background-repeat: repeat, repeat;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin: 0;
+    font-size: 12px;
+}
+
 .alrpHeader {
     background-image: linear-gradient(to bottom, #CA0000, #AA0000);
     border-radius: 5px 5px 0 0;
@@ -6,5 +15,12 @@
 }
 
 .alrpBrand {
-    color:white;
+    width: 170px;
+}
+
+.alrpBrand > img {
+    position: absolute;
+    margin-bottom: -50px;
+    top: -25px;
+    left: -20px;
 }
