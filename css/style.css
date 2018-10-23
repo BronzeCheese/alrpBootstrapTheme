@@ -1,5 +1,5 @@
 body {
-    background: url(images/bg.jpg), black;
+    background: url(../images/bg.jpg), black;
     background-repeat: repeat, repeat;
     background-repeat: no-repeat;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
