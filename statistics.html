@@ -51,7 +51,16 @@
                         We are currently still in development! Please report any bugs you may find!
                     </div>
                     <div class="alrpContentBox">
-                        <div class="income" style="height:250px;"></div>
+                        <div class="row">
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="income" style="height:250px;"></div>
+                            </div>
+                            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                                <p>
+                                    <h4>Government Income</h4>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
@@ -95,18 +104,15 @@
             };
 
             var responsiveOptions = [
-            ['screen and (min-width: 640px)', {
-                chartPadding: 30,
-                labelOffset: 100,
-                labelDirection: 'explode',
-                labelInterpolationFnc: function(value) {
-                return value;
-                }
-            }],
-            ['screen and (min-width: 1024px)', {
-                labelOffset: 80,
-                chartPadding: 20
-            }]
+                ['screen and (min-width: 640px)', {
+                    chartPadding: 30,
+                    labelOffset: 80,
+                    labelDirection: 'explode'
+                }],
+                ['screen and (min-width: 1024px)', {
+                    chartPadding: 20,
+                    labelOffset: 80
+                }]
             ];
 
             new Chartist.Pie('.income', data, options, responsiveOptions);
