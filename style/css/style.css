@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 .alrpLoginButton {
     background-image: linear-gradient(to bottom, #CA0000, #AA0000);
     color: white;
-    border: 1px solid darkred;
+    border: 1px solid darkred !important;
 }
 
 .alrpRegisterButton {
