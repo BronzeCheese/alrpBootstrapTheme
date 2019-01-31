@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alternative Life RP</title>
+        <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./style/css/style.css">
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="./style/js/bootstrap.min.js"></script>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark alrpHeader">
+                <!-- Brand -->
+                <a class="navbar-brand alrpBrand" href="#"><img src="./style/images/alrplogo.png" alt="Logo"/> <!-- Alternative Life RP --></a>
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="forum/">Forum</a>
+                        </li>
+                
+                    <!-- Dropdown -->
+                        <li class="nav-item px-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Development
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://trello.com/b/Br3aevLI/alrpmodular">Trello</a>
+                                <a class="dropdown-item" href="https://discord.gg/8rKR5HD">Discord</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
+            <div class="row row-xs row-sm row-md row-lg row-xl alrpContent">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="alert alert-danger" role="alert">
+                        We are currently still in development! Please report any bugs you may find!
+                    </div>
+                    <div class="alrpContentBox">
+                        <h3>STEP 1: Basic Information</h3>
+                        <table class="alrpThiccTable">
+                            <tbody>
+                                <tr>
+                                    <td class="alrpExtraSpacing alrpMinContent">First name(s):</td>
+                                    <td>
+                                        <div class="input-group input-group-sm mb-2">
+                                            <input type="text" name="username" class="form-control alrpInput">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="alrpExtraSpacing alrpMinContent">Middle name(s)</td>
+                                    <td>
+                                        <div class="input-group input-group-sm mb-2">
+                                            <input type="password" name="password" class="form-control alrpInput">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="alrpExtraSpacing alrpMinContent">Last name(s):</td>
+                                    <td>
+                                        <div class="input-group input-group-sm mb-2">
+                                            <input type="password" name="password-confirmation" class="form-control alrpInput">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="alrpContentBox">
+                        <h2>Login</h2>
+                        <div class="input-group input-group-sm mb-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text alrpInputPrepend" id="basic-addon1"><i class="fa fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control alrpInput" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group input-group-sm mb-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text alrpInputPrepend" id="basic-addon1"><i class="fa fa-key"></i></span>
+                            </div>
+                            <input type="text" class="form-control alrpInput" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block alrpLoginButton btn-sm">Log in</button> 
+                        <button type="button" class="btn btn-primary btn-block alrpRegisterButton btn-sm">Create a new account</button> 
+                    </div>
+                </div>
+            </div>
+            <div class="row-sm alrpFooter">
+                Copyright © 2016 - <script>document.write(new Date().getFullYear())</script> Alternative Life RP
+            </div>
+        </div>
+    </body>
+</html>
